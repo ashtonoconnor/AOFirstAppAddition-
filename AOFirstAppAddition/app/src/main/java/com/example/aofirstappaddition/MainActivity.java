@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
         Button divideBtn = (Button) findViewById(R.id.divideBtn);
         divideBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,14 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
-
-
+        
 
 
         Button subtractBtn = (Button) findViewById(R.id.subtractBtn);
