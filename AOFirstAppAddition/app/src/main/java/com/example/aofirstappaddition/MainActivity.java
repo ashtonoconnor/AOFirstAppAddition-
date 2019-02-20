@@ -34,7 +34,21 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+        Button multiplyBtn = (Button) findViewById(R.id.multiplyBtn);
+        multiplyBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                EditText firstNumEditText = (EditText) findViewById(R.id.firstNumEditText);
+                EditText secondNumEditText = (EditText) findViewById(R.id.secondNumEditText);
+                TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
+
+                double num1 = parseInt(firstNumEditText.getText().toString());
+                double num2 = parseInt(secondNumEditText.getText().toString());
+                double result = num1 * num2;
+                resultTextView.setText(result + "" );
+            }
+        });
 
 
 
