@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
 
-                double num1 = parseInt(firstNumEditText.getText().toString());
-                double num2 = parseInt(secondNumEditText.getText().toString());
+                double num1 = Double.parseDouble(firstNumEditText.getText().toString());
+                double num2 = Double.parseDouble(secondNumEditText.getText().toString());
                 double result = num1 / num2;
                 resultTextView.setText(result + "" );
             }
@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
                     TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
 
-                    double num1 = parseInt(firstNumEditText.getText().toString());
-                    double num2 = parseInt(secondNumEditText.getText().toString());
+                    double num1 = Double.parseDouble(firstNumEditText.getText().toString());
+                    double num2 = Double.parseDouble(secondNumEditText.getText().toString());
                     double result = num1 - num2;
                     resultTextView.setText(result + "" );
                 }
@@ -66,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
 
-                double num1 = parseInt(firstNumEditText.getText().toString());
-                double num2 = parseInt(secondNumEditText.getText().toString());
+                double num1 = Double.parseDouble(firstNumEditText.getText().toString());
+                double num2 = Double.parseDouble(secondNumEditText.getText().toString());
                 double result = num1 * num2;
                 resultTextView.setText(result + "" );
             }
@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
 
-                double num1 = parseInt(firstNumEditText.getText().toString());
-                double num2 = parseInt(secondNumEditText.getText().toString());
+                double num1 = Double.parseDouble(firstNumEditText.getText().toString());
+                double num2 = Double.parseDouble(secondNumEditText.getText().toString());
                 double result = num1 + num2;
                 resultTextView.setText(result + "" );
             }
